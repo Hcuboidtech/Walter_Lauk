@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+
+    <ImageView
+        android:background="@drawable/sender_textmessageicon"
+        android:visibility="gone"
+        android:id="@+id/sender_imageview"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/sender_textView"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_sender_text_message_icon"
+        android:fontFamily="@font/poppins"
+        android:text="this is Text"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ImageView
+        android:background="@drawable/ic_receiver_textmessage_icon"
+        android:visibility="gone"
+        android:id="@+id/receiver_imageView"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:visibility="gone"
+        android:gravity="center"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:text="this is the receiverText"
+        android:id="@+id/receiver_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_receiver_textmessage_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+
+    <VideoView
+        android:visibility="gone"
+        android:id="@+id/sender_videoView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/receiver_videoView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

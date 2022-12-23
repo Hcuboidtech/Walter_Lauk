@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragment.AddPartDetailFragment">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/ghost_white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <TextView
+                android:id="@+id/tv_damage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/part_is_damaged"
+                android:textColor="@color/navy_blue_dark"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/chk_damage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/add_description"
+                android:textColor="@color/navy_blue_dark"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_damage" />
+
+            <EditText
+                android:id="@+id/ed_desc"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/edittext_bg_white_square_corder"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:maxLines="3"
+                android:padding="5dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_desc" />
+
+            <TextView
+                android:id="@+id/tv_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/add_image"
+                android:textColor="@color/navy_blue_dark"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ed_desc" />
+
+            <RelativeLayout
+                android:id="@+id/rl_images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/tv_add">
+
+                <ImageView
+                    android:id="@+id/img_damagepart1"
+                    android:layout_width="175dp"
+                    android:layout_height="146dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/img_bg"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/img_damagepart2"
+                    android:layout_width="175dp"
+                    android:layout_height="146dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toRightOf="@+id/img_damagepart1"
+                    android:background="@drawable/img_bg"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/img_damagepart3"
+                    android:layout_width="175dp"
+                    android:layout_height="146dp"
+                    android:layout_below="@+id/img_damagepart1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/img_bg"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/img_damagepart4"
+                    android:layout_width="175dp"
+                    android:layout_height="146dp"
+                    android:layout_below="@id/img_damagepart1"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/img_damagepart1"
+                    android:background="@drawable/img_bg"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintTop_toBottomOf="@+id/rl_images">
+
+                <Button
+                    android:id="@+id/btn_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/red_border_button_background"
+                    android:text="@string/clear_all"
+                    android:textColor="@color/red" />
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner_layout_red"
+                    android:text="@string/submit"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/prg_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

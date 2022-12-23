@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- change all text here to russian -->
+    <!--   Login   -->
+    <string name="app_name">Walter Lauk</string>
+    <string name="forget_password">Забыл пароль ?</string>
+    <string name="user_name"><font size="12">Имя пользователя</font></string>
+    <string name="password"><font size="12">Пароль</font></string>
+    <string name="welcome_back">Добро пожаловать !!</string>
+    <string name="login">АВТОРИЗОВАТЬСЯ</string>
+    <string name="user_name1"><font size="12">
+    </font></string>
+    <string name="please_signIn_to">Пожалуйста, войдите, чтобы продолжить</string>
+
+    <!--   bottom nav-->
+    <string name="home">Дом</string>
+    <string name="departure">Вылет из</string>
+    <string name="damage">Наносить ущерб</string>
+    <string name="settings">Настройки</string>
+
+    <!--    DashBoard-->
+    <string name="legal_terms">Юридические условия</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="company_information">Информация о компании</string>
+    <string name="parking_address">Адрес парковки</string>
+    <string name="news">Новости</string>
+    <string name="company_name">Вальтер Лаук Контейнерспедишн ГмбХ</string>
+    <string name="company_address">Эллерхольцдамм 22\n20457 Гамбург</string>
+    <string name="parking_address1">Gesetzte Markierung</string>
+    <string name="parking_address2">Вильгельмсбург</string>>
+
+    <!--   Profile -->
+    <string name="profile">Профиль</string>
+    <string name="hint"><font size="10sp">Намекать!</font></string>
+    <string name="edittext_hint"><font size="11">Подсказка здесь!
+</font></string>
+    <string name="username">имя пользователя</string>
+    <string name="change_picture"><u>Измени фотографию</u></string>
+    <string name="truck_id">Идентификатор грузовика</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Привет пустой фрагмент</string>
+    <string name="clear_all">Очистить все</string>
+    <string name="departure_control">Контроль отправления
+</string>
+    <string name="damage_control">Ремонтно-восстановительные работы</string>
+    <string name="about_us">О нас</string>
+
+    <string name="contact_us">Свяжитесь с нами</string>
+    <string name="contact_support">Контактная поддержка</string>
+    <string name="invalid_input">неправильный ввод</string>
+    <string name="notification">Уведомления</string>
+    <string name="choose_from_gallery">Выбрать из галереи</string>
+    <string name="take_photo">Сфотографировать</string>
+    <string name="update_profile">Обновить профиль</string>
+    <string name="logout">Выйти</string>
+    <string name="language">Язык</string>
+    <string name="german">Немецкий</string>
+    <string name="english">Английский</string>
+    <string name="russian">Русский</string>
+    <string name="serbian">сербский</string>
+    <string name="submit">Представлять на рассмотрение</string>
+    <string name="walter_lauk">ВАЛЬТЕР ЛАУК</string>
+    <string name="containerspedition_gmbh">КОНТЕЙНЕРСПЕДИШН ГмбХ</string>
+
+    <string name="permission_denied">В доступе отказано</string>
+    <string name="empty_checkbox">Пожалуйста, проверьте, не повреждена ли часть</string>
+    <string name="empty_desc">Пожалуйста, введите описание</string>
+
+    <string name="part_is_damaged">Часть повреждена</string>
+    <string name="add_description">Добавить описание</string>
+    <string name="add_image">Добавить изображение</string>
+
+    <string name="select_truck_id">Выберите идентификатор грузовика</string>
+    <string name="select_trailer_id">Выберите идентификатор трейлера</string>
+    <string name="next">Следующий</string>
+
+    <string name="trailer_parts">Запчасти для прицепов</string>
+    <string name="truck_parts">Запчасти для грузовиков</string>
+
+    <string name="trailer_id">Идентификатор трейлера</string>
+    <string name="service_date_main_examination">Дата обслуживания (основной осмотр)</string>
+    <string name="edit">Редактировать</string>
+    <string name="service_date_safety_test">Дата обслуживания (проверка безопасности)</string>
+    <string name="start">Начинать</string>
+    <string name="empty_trailer_id">Пожалуйста, выберите идентификатор трейлера</string>
+</resources>

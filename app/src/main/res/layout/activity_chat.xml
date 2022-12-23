@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ChatActivity"
+    android:background="#F2F3FA">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </include>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progress_bar_chat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/chat_RecyclerView"
+        app:layout_constraintStart_toStartOf="@+id/chat_RecyclerView"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ProgressBar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/send_image_btn"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/icon_image"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/send_video_btn"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/icon_video"
+            app:layout_constraintStart_toEndOf="@+id/send_image_btn">
+
+        </ImageView>
+
+        <EditText
+            android:id="@+id/input_chat_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/icon_edit_text_input_for_chat"
+            android:fontFamily="@font/poppins"
+            android:hint="type here"
+            android:paddingLeft="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/btn_send_chat"
+            app:layout_constraintStart_toEndOf="@+id/send_video_btn"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/btn_send_chat"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_send"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

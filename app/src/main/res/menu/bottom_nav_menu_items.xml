@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/home"
+       android:icon="@drawable/ic_home_vector"
+       android:title="@string/home">
+   </item>
+    <item android:id="@+id/departure"
+        android:icon="@drawable/ic_departure_vector"
+        android:title="@string/departure">
+    </item>
+    <item
+        android:id="@+id/damage"
+        android:icon="@drawable/ic_damage_vector"
+        android:title="@string/damage">
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_img"
+        android:title="@string/settings">
+    </item>
+
+</menu>

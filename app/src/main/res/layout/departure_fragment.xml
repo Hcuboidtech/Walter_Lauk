@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ghost_white">
+
+    <LinearLayout
+        android:id="@+id/ln_truckid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_truckid_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/truck_id"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/ln_enter_truckid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/edittext_bg_white">
+
+            <Spinner
+                android:id="@+id/sp_truckid"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/poppins"
+                android:padding="10dp"
+                android:textColor="@color/navy_blue_dark" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_trailer_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/ln_truckid">
+
+        <TextView
+            android:id="@+id/tv_trailerid_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/trailer_id"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/ln_enter_trailerid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/edittext_bg_white">
+
+            <Spinner
+                android:id="@+id/sp_trailerid"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/poppins"
+                android:padding="10dp"
+                android:textColor="@color/navy_blue_dark" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_date_examination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/edittext_bg_white"
+        android:orientation="vertical"
+        android:padding="7dp"
+        app:layout_constraintTop_toBottomOf="@id/ln_trailer_id">
+
+        <TextView
+            android:id="@+id/tv_servicedate_examination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/service_date_main_examination"
+            android:textColor="@color/navy_blue_dark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_servicedate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_servicedate_examination"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingStart="10dp"
+            android:textColor="@color/navy_blue"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_edit_examination"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/round_corner_button_navy_blue"
+            android:text="@string/edit"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_date_safety"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/edittext_bg_white"
+        android:orientation="vertical"
+        android:padding="7dp"
+        app:layout_constraintTop_toBottomOf="@id/rl_date_examination">
+
+        <TextView
+            android:id="@+id/tv_safety_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/service_date_safety_test"
+            android:textColor="@color/navy_blue_dark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_safetydate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_safety_date_tv"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingStart="10dp"
+            android:textColor="@color/navy_blue"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/round_corner_button_navy_blue"
+            android:text="@string/edit"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/round_corner_layout_red"
+        android:gravity="center"
+        android:padding="13dp"
+        app:layout_constraintTop_toBottomOf="@+id/rl_date_safety">
+
+        <TextView
+            android:id="@+id/addsubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_right_arrow"
+            android:drawablePadding="7dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="@string/start"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="13dip" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- <Button
+         android:id="@+id/btn_start"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="25dp"
+         android:layout_marginTop="25dp"
+         android:layout_marginEnd="25dp"
+         android:gravity="end"
+         android:layout_gravity="end"
+         android:background="@drawable/round_corner_layout_red"
+         android:drawableRight="@drawable/ic_right_arrow"
+         android:text="Start"
+         android:textColor="@color/white"
+         app:layout_constraintTop_toBottomOf="@+id/rl_date_safety" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/drawable/ic_receiver_textmessage_icon.xml" value="0.223" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/drawable/ic_red_cross_icon.xml" value="0.126" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/drawable/ic_sender_text_message_icon.xml" value="0.2" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/drawable/ic_sender_textbackground_.xml" value="0.2465" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/drawable/ic_splash_logo.xml" value="0.148" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/drawable/sender_textmessageicon.xml" value="0.264" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_about_us.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_base.xml" value="0.14375" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_chat.xml" value="0.152" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_contact_us.xml" value="0.264" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_dashboard.xml" value="0.14010416666666667" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_departure_control.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_image_full_screen_acitvity.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_login.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_news_details.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_profile.xml" value="0.209375" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/activity_splash.xml" value="0.176" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/chat_item_view.xml" value="0.264" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/damage_fragment.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/departure_fragment.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/fragment_departure_control.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/home_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/item_contactus_list.xml" value="0.4" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/item_news_list.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/layout_contactus.xml" value="0.4" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/progressbar_layout.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/settings_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/Shivam Sharma/Downloads/truck-app_15_10_2022/truck-app/app/src/main/res/layout/toolbar.xml" value="0.536" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

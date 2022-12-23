@@ -1,0 +1,84 @@
+<resources>
+    <!--   Login   -->
+    <string name="app_name">Walter Lauk</string>
+    <string name="forget_password">Forgot Password ?</string>
+    <string name="user_name"><font size="12">Username</font></string>
+    <string name="password"><font size="12">Password</font></string>
+    <string name="welcome_back">Welcome Back !!</string>
+    <string name="login">LOGIN</string>
+    <string name="user_name1"><font size="12">
+    </font></string>
+    <string name="please_signIn_to">Please Sign In to Continue</string>
+
+    <!--   bottom nav-->
+    <string name="home">Home</string>
+    <string name="departure">Departure</string>
+    <string name="damage">Damage</string>
+    <string name="settings">Settings</string>
+
+    <!--    DashBoard-->
+    <string name="legal_terms">Legal Terms</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="company_information">Company Information</string>
+    <string name="parking_address">Parking Address</string>
+    <string name="news">News</string>
+    <string name="company_name">Walter Lauk Containerspedition GmbH</string>
+    <string name="company_address">Ellerholzdamm 22\n20457 Hamburg</string>
+    <string name="parking_address1">Gesetzte Markierung</string>
+    <string name="parking_address2">Wilhelmsburg</string>>
+
+    <!--   Profile -->
+    <string name="profile">Profile</string>
+    <string name="hint"><font size="10sp">Hint!</font></string>
+    <string name="edittext_hint"><font size="11">Hint here!</font></string>
+    <string name="username">username</string>
+    <string name="change_picture"><u>Change Photo</u></string>
+    <string name="truck_id">Truck ID</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clear_all">Clear all</string>
+    <string name="departure_control">Departure Control</string>
+    <string name="damage_control">Damage Control</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="invalid_input">Invalid Input</string>
+    <string name="notification">Notifications</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="logout">Logout</string>
+    <string name="language">Language</string>
+    <string name="german">German</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="serbian">Serbian</string>
+    <string name="submit">Submit</string>
+    <string name="walter_lauk">WALTER LAUK</string>
+    <string name="containerspedition_gmbh">CONTAINERSPEDITION GmbH</string>
+
+
+    <string name="permission_denied">Permission denied</string>
+    <string name="empty_checkbox">Please check if part is damage</string>
+    <string name="empty_desc">Please enter description</string>
+
+    <string name="part_is_damaged">Part is damaged</string>
+    <string name="add_description">Add description</string>
+    <string name="add_image">Add Image</string>
+
+    <string name="select_truck_id">Select Truck ID</string>
+    <string name="select_trailer_id">Select Trailer ID</string>
+    <string name="next">Next</string>
+
+    <string name="trailer_parts">Trailer Parts</string>
+    <string name="truck_parts">Truck Parts</string>
+
+    <string name="trailer_id">Trailer ID</string>
+    <string name="service_date_main_examination">Service Date(Main Examination)</string>
+    <string name="edit">Edit</string>
+    <string name="service_date_safety_test">Service Date(Safety test)</string>
+    <string name="start">Start</string>
+    <string name="empty_trailer_id">Please select trailer id</string>
+    <string name="truck">Truck</string>
+    <string name="trailer">Trailer</string>
+</resources>

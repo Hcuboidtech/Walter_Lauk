@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   Login   -->
+
+    <string name="app_name">Walter Lauk</string>
+    <string name="forget_password">Passwort vergessen ?</string>
+    <string name="user_name"><font size="12">Nutzername</font></string>
+    <string name="password"><font size="12">Passwort</font></string>
+    <string name="welcome_back">Willkommen zurück !!</string>
+    <string name="login">ANMELDUNG</string>
+    <string name="user_name1"><font size="12">
+    </font></string>
+    <string name="please_signIn_to">Bitte einloggen, um fortzufahren</string>
+
+    <!--   bottom nav-->
+    <string name="home">Heim</string>
+    <string name="departure">Abfahrt</string>
+    <string name="damage">Schaden</string>
+    <string name="settings">Einstellungen</string>
+
+    <!--    DashBoard-->
+    <string name="legal_terms">AGB</string>
+<!--    <string name="legal_terms">Rechtliche Bestimmungen</string>-->
+    <string name="privacy_policy">Datenschutz</string>
+<!--    <string name="privacy_policy">Datenschutz-Bestimmungen</string>-->
+    <string name="company_information">Firmeninformation</string>
+    <string name="parking_address">Parkplatzadresse</string>
+    <string name="news">Nachrichten</string>
+    <string name="company_name">Walter Lauk Containerspedition GmbH</string>
+    <string name="company_address">Ellerholzdamm 22\n20457 Hamburg</string>
+    <string name="parking_address1">Norderelbstraße</string>
+<!--    <string name="parking_address1">Gesetzliche Markierung</string>-->
+    <string name="parking_address2">Wilhelmsburg</string>>
+
+    <!--   Profile -->
+    <string name="profile">Profil</string>
+    <string name="hint"><font size="10sp">Hinweis!</font></string>
+    <string name="edittext_hint"><font size="11">Hinweis hier!</font></string>
+    <string name="username">Nutzername</string>
+    <string name="change_picture"><u>Foto ändern</u></string>
+    <string name="truck_id">LKW-ID</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="clear_all">Alles löschen</string>
+    <string name="departure_control">Abfahrtskontrolle</string>
+    <string name="damage_control">Schadenskontrolle</string>
+    <string name="about_us">Über uns</string>
+
+    <string name="contact_us">Kontaktiere uns</string>
+
+    <string name="contact_support">Support kontaktieren</string>
+<!--    <string name="contact_support">Kontaktieren Sie Support</string>-->
+    <string name="invalid_input">Ungültige Eingabe</string>
+    <string name="notification">Benachrichtigungen</string>
+    <string name="choose_from_gallery">Wählen Sie aus der Galerie</string>
+    <string name="take_photo">Foto machen</string>
+    <string name="update_profile">Profil aktualisieren</string>
+    <string name="logout">Ausloggen</string>
+    <string name="language">Sprache</string>
+    <string name="german">Deutsch</string>
+    <string name="english">Englisch</string>
+    <string name="russian">Russisch</string>
+    <string name="serbian">serbisch</string>
+    <string name="submit">Einreichen</string>
+    <string name="walter_lauk">Walter Lauk</string>
+    <string name="containerspedition_gmbh">CONTAINERSPEDITION Gmbh</string>
+
+    <string name="permission_denied">Erlaubnis verweigert</string>
+    <string name="empty_checkbox">Please check if part is damage</string>
+    <string name="empty_desc">Bitte Beschreibung eingeben</string>
+
+    <string name="part_is_damaged">Teil ist beschädigt</string>
+    <string name="add_description">Füge eine Beschreibung hinzu</string>
+    <string name="add_image">Bild hinzufügen</string>
+
+    <string name="select_truck_id">LKW-ID auswählen</string>
+    <string name="select_trailer_id">Anhänger-ID auswählen</string>
+    <string name="next">Nächste</string>
+
+    <string name="trailer_parts">Anhängerteile</string>
+    <string name="truck_parts">LKW-Teile</string>
+
+    <string name="trailer_id">Trailer-ID</string>
+    <string name="service_date_main_examination">Servicedatum (HU)</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="service_date_safety_test">Servicedatum (SP)</string>
+    <string name="start">Anfang</string>
+    <string name="empty_trailer_id">Bitte Trailer-ID auswählen</string>
+</resources>

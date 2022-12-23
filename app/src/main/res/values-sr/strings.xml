@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   Login   -->
+    <string name="app_name">Walter Lauk</string>
+    <string name="forget_password">Заборавили сте лозинку ?</string>
+    <string name="user_name"><font size="12">Корисничко име</font></string>
+    <string name="password"><font size="12">Лозинка</font></string>
+    <string name="welcome_back">Добродошли назад !!</string>
+    <string name="login">ПРИЈАВИТЕ СЕ</string>
+    <string name="user_name1"><font size="12">
+    </font></string>
+    <string name="please_signIn_to">Пријавите се да бисте наставили</string>
+
+    <!--   bottom nav-->
+    <string name="home">Кућа</string>
+    <string name="departure">Одлазак</string>
+    <string name="damage">Оштећење</string>
+    <string name="settings">Подешавања</string>
+
+    <!--    DashBoard-->
+    <string name="legal_terms">Правни услови</string>
+    <string name="privacy_policy">Правила о приватности</string>
+    <string name="company_information">информације о компанији</string>
+    <string name="parking_address">Адреса паркинга</string>
+    <string name="news">Вести</string>
+    <string name="company_name">Валтер Лаук Цонтаинерспедитион ГмбХ</string>
+    <string name="company_address">Еллерхолздамм 22\н20457 Хамбург</string>
+    <string name="parking_address1">Гесетзте Маркиерунг</string>
+    <string name="parking_address2">Вилхелмсбург</string>>
+
+    <!--   Profile -->
+    <string name="profile">Профил</string>
+    <string name="hint"><font size="10sp">Наговестити!</font></string>
+    <string name="edittext_hint"><font size="11">Хинт хере!</font></string>
+    <string name="username">корисничко име</string>
+    <string name="change_picture"><u>Промени фотографију</u></string>
+    <string name="truck_id">ИД камиона</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Здраво празан фрагмент</string>
+    <string name="clear_all">Избриши све</string>
+    <string name="departure_control">Контрола одласка</string>
+    <string name="damage_control">Контрола штете</string>
+    <string name="about_us">О нама</string>
+
+    <string name="contact_us">Контактирајте нас</string>
+    <string name="contact_support">Контактирајте подршку</string>
+    <string name="invalid_input">нетачан унос</string>
+    <string name="notification">Обавештења</string>
+    <string name="choose_from_gallery">Изаберите из галерије</string>
+    <string name="take_photo">Сликати</string>
+    <string name="update_profile">Ажурирање профил</string>
+    <string name="logout">Одјавити се</string>
+    <string name="language">Језик</string>
+    <string name="german">Немачки</string>
+    <string name="english">енглески језик</string>
+    <string name="russian">Руски</string>
+    <string name="serbian">Српски</string>
+    <string name="submit">прихвати</string>
+    <string name="walter_lauk">ВАЛТЕР ЛАУК</string>
+    <string name="containerspedition_gmbh">ЦОНТАИНЕРСПЕДИТИОН Гмбх</string>
+
+    <string name="permission_denied">Дозвола одбијена</string>
+    <string name="empty_checkbox">Проверите да ли је део оштећен</string>
+    <string name="empty_desc">Унесите опис</string>
+
+    <string name="part_is_damaged">Део је оштећен</string>
+    <string name="add_description">Додајте опис</string>
+    <string name="add_image">Додај слику</string>
+
+    <string name="select_truck_id">Изаберите ИД камиона</string>
+    <string name="select_trailer_id">Изаберите ИД приколице</string>
+    <string name="next">Следећи</string>
+
+    <string name="trailer_parts">Запчасти для прицепов</string>
+    <string name="truck_parts">Запчасти для грузовиков</string>
+
+    <string name="trailer_id">ИД приколице</string>
+    <string name="service_date_main_examination">Датум сервиса (главни преглед)</string>
+    <string name="edit">Уредити</string>
+    <string name="service_date_safety_test">Датум сервиса (безбедносни тест)</string>
+    <string name="start">Почетак</string>
+    <string name="empty_trailer_id">
+Почетак</string>
+</resources>

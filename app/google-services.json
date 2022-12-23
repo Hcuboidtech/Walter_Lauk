@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "645654367525",
+    "firebase_url": "https://walterlauk-default-rtdb.firebaseio.com",
+    "project_id": "walterlauk",
+    "storage_bucket": "walterlauk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645654367525:android:47b480ca1ae582663d1ecc",
+        "android_client_info": {
+          "package_name": "com.walterlauk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645654367525-6v9013njcnfjc51pcp48grgeaovb3bkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walterlauk",
+            "certificate_hash": "c3caf41626b5c5e31be8db2ab704f1a36a52c53e"
+          }
+        },
+        {
+          "client_id": "645654367525-lmm37bcukngot73icq3689gj0oqbk498.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzTVGadlSxvRymU0Ea4wvWiH014-eLNXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645654367525-lmm37bcukngot73icq3689gj0oqbk498.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "645654367525-on2u8afdvsm9ev5p9bhvbl8rctdm3418.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wl.WalterLauk"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
